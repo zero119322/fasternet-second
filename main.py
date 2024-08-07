@@ -5,4 +5,4 @@ if __name__ == '__main__':
     print(model.model)
 
     # Use the model
-    results = model.train(data="VOC1.yaml", epochs=100, device='cpu', batch=16,workers=0)  # 训练模型
+    results = model.train(data="VOC1.yaml", epochs=300, device='0', batch=8,seed=42,patience=10.pretrained=False)  # 训练模型
